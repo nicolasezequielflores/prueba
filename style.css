@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+h1{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 25px;
+}
+
 a{
     text-decoration: none;
 }
@@ -11,10 +16,10 @@ a{
 .logo{
 
     color: white;
-    font-size: 27px;
-    font-family: sans-serif;
+    font-size: 19px;
+    font-family: 'Libre Baskerville', serif;
     font-weight: bold;
-    padding-right: 13px;
+    padding-right: 10px;
     
 }
 
@@ -22,28 +27,30 @@ a{
 .nave{
 
     color: white;
-    font-size: 17px;
+    font-size: 14px;
     font-family: sans-serif;
     padding: 5px;
 
 }
 
 .cont{
-    border: 0.5px solid rgb(209, 255, 203);
-    background:  rgb(209, 255, 203);
+    border: solid  rgb(255, 255, 255);
+    background:  rgb(255, 255, 255);
     border-radius: 60px;
     color: rgb(0, 0, 0);
+    font-size: 14px;
+
 }
 
 
 
 .logo:hover{
 
-    color: rgb(223, 223, 223);
+    color: rgb(0, 0, 0);
 }
 
 .nave:hover{
-    color: rgb(223, 223, 223);
+    color: rgb(0, 0, 0);
 }
 
 body{
@@ -59,20 +66,30 @@ body{
     min-height: 650px;
     display: grid;
     grid-template-columns: repeat(8,1fr);
-    grid-template-rows: repeat(9,1fr);
+    grid-template-rows: repeat(16,1fr);
     grid-template-areas: 
 
     "el1 el1 el1 el1 el1 el1 el1 el1"
     "el1 el1 el1 el1 el1 el1 el1 el1"
     "el1 el1 el1 el1 el1 el1 el1 el1"
-    "el2 el2 el2 el2 el3 el3 el3 el3"
-    "el2 el2 el2 el2 el3 el3 el3 el3"
-    "el2 el2 el2 el2 el3 el3 el3 el3"
-    "el2 el2 el2 el2 el3 el3 el3 el3"
-    "el4 el4 el4 el4 el4 el4 el4 el4"
-    "el4 el4 el4 el4 el4 el4 el4 el4"
+    "el1 el1 el1 el1 el1 el1 el1 el1"
+    "el1 el1 el1 el1 el1 el1 el1 el1"
+    "el1 el1 el1 el1 el1 el1 el1 el1"
+    "el2 el2 el2 el2 el2 el2 el2 el2"
+    "el2 el2 el2 el2 el2 el2 el2 el2"
+    "el2 el2 el2 el2 el2 el2 el2 el2"
+    "el2 el2 el2 el2 el2 el2 el2 el2"
+    "el2 el2 el2 el2 el2 el2 el2 el2"
+    "el2 el2 el2 el2 el2 el2 el2 el2"
+    "el2 el2 el2 el2 el2 el2 el2 el2"
+    "el2 el2 el2 el2 el2 el2 el2 el2"
+    "el2 el2 el2 el2 el2 el2 el2 el2"
+    "el2 el2 el2 el2 el2 el2 el2 el2"  
+
+   
+  
     ;
-    gap: 10px;
+   
 }
 
 .img{
@@ -85,7 +102,7 @@ body{
 
 .img1{
     
-    background-image: url(img/portada.jpg);
+    background-image: url(img/header1.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,19 +114,30 @@ body{
 
 .img2{
 
+    height: 100%;
     grid-area: el2;
     background-color: rgb(240, 240, 240);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: 'Vollkorn', serif;
 }
 
-.img3{
+/* .img3{
+    height: 100%;
     grid-area: el3;
-    background-color: rgb(173, 255, 191);
-}
+    background: black;
+    
+    color: white;
+} */
 
+/*
 .img4{
     grid-area: el4;
     background-color: rgb(173, 255, 255);
-}
+} */
 
 /* .img5{
     grid-area: el5;
@@ -121,3 +149,4 @@ body{
     background-color: rgb(173, 255, 255);
 }
  */
+
