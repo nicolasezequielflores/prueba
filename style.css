@@ -16,7 +16,7 @@ a{
 .logo{
 
     color: white;
-    font-size: 19px;
+    font-size: 23px;
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
    
@@ -30,7 +30,7 @@ a{
     color: white;
     font-size: 14px;
     font-family: sans-serif;
-    padding:5px;
+    padding: 5px;
 
 }
 
@@ -53,6 +53,12 @@ a{
 
 .nave:hover{
     color: rgb(0, 0, 0);
+}
+
+.cont:hover{
+    background-color: black;
+    color: white;
+    border: solid black;
 }
 
 body{
@@ -160,7 +166,7 @@ aside{
 }
 
 .cont-section{
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(219, 219, 219);
     min-height: 100%;
     color: white;
     text-align: center;
@@ -172,15 +178,16 @@ aside{
 
 .pyc{
 
-    
     height: 150px;
     width: 200px;
     background-image: url(img/header1.png);
+    object-fit: cover;
     display: grid;
     justify-content: center;
     align-items: center;
     color: white;
     margin: 10px;
+    border-radius: 7%;
     
      
 }
@@ -189,14 +196,16 @@ h3{
     font-size: 25px;
     font-family: 'Playfair Display SC', serif;
     margin: 10px;
+    color: black;
 }
 
 .as{
 
     color: white;
-    
     background: black;
-    width: 30px;
+    width: 35px;
+    height: 20px;
+    
 
 }
 
@@ -212,4 +221,5 @@ footer{
     background-color: black;
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
 }
