@@ -1,0 +1,296 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.cont_header{
+
+    background-image: url(img/header1.png);
+    height: 250px;
+    font-size: 10px;
+    font-family: sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+ 
+    
+    
+}
+
+.logo{
+    color:rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nave{
+    color:rgb(255, 255, 255);
+    font-size: 17px;
+    padding: 10px;
+}
+
+.nave-cont{
+       padding: 7px;
+  
+       color: rgb(255, 255, 255);
+
+       border-radius: 100%;
+}
+
+.logo:hover{
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nave:hover{
+    color:rgb(0, 0, 0);
+    font-size: 17px;
+    padding: 10px;
+}
+
+.nave-cont:hover{
+       padding: 7px;
+  
+       color: rgb(0, 0, 0);
+
+       border-radius: 100%;
+}
+
+
+.imgaside{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    padding: 10px;
+    object-fit: cover;
+
+}
+
+main{
+    min-height: 50vh;
+}
+
+.container{
+    background-color: rgb(243, 243, 243);
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    padding: 75px 40px 70px 40px;
+    
+}
+
+.parrafo1{
+    margin: 0px;
+    padding-top: 0px;
+}
+
+
+.asi{
+    overflow: hidden;
+    min-height: 70vh;
+    width: 100%;
+   
+    
+}
+
+.ig{
+
+    color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+
+.ig:hover{
+
+    color: rgb(136, 136, 136);
+    font-size: 20px;
+    font-family: sans-serif;
+    
+}
+
+.parrafo2{
+    padding-top: 15px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section1{
+    
+    text-align: center;
+    padding: 100px;
+    
+}
+
+.section2{
+ 
+    background-color: black;
+    text-align: center;
+    color: white;
+    width: 100%;
+    min-height: 60vh;
+    padding: 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(6,1fr);
+    grid-template-areas:
+
+    "proy1 proy1 proy2 proy2"
+    "proy1 proy1 proy2 proy2"
+    "proy3 proy3 proy4 proy4"
+    "proy3 proy3 proy4 proy4"
+    "proy5 proy5 proy5 proy5"
+    "proy5 proy5 proy5 proy5"
+    ;
+
+    gap: 15px;
+    overflow: hidden;
+
+}
+
+
+
+.proy{
+
+    background: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+ 
+   
+    
+}
+
+
+
+.cua-proy{
+    height: 10px;
+    padding: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+.cp1{
+
+    grid-area: proy1;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 243, 243);
+    border: 15px solid black;
+  
+    
+
+}
+
+.cp2{
+    grid-area: proy2;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 243, 243);
+    border: 15px solid black;
+    
+    
+}
+
+.cp3{
+    grid-area: proy3;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 243, 243);
+    border: 15px solid black;
+}
+
+.cp4{
+    grid-area: proy4;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(243, 243, 243);
+    border: 15px solid black;
+}
+
+.cp5{
+    grid-area: proy5;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(243, 243, 243);
+    border: 15px solid black;
+}
+
+footer{
+    padding: 50px;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.fa{
+    color: rgb(255, 255, 255);
+    background-color: black;
+    height: 90px;
+    width: 90px;
+ 
+    
+}
+
+.contf{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    border-radius: 70%;
+    
+    
+   
+}
+
+.contf a{
+    font-size: 40px;
+    width: 60px ;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 100%;
+} 
+
+.contf a:hover{
+    color: rgb(136, 136, 136);
+}
+
+.text{
+    text-align: center;
+    padding-top: 25px;
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.ver_bottom{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 12px;
+    padding: 3px;
+    
+}
+
+.ver_bottom:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(136, 136, 136);
+    font-size: 12px;
+    padding: 3px;
+    
+}
